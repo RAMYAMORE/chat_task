@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width:500px;
+            height: 500px;
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+        h1{
+            font-size: 3.2em;
+            font-family: Arial, Helvetica, sans-serif;
+            color: blue;
+        }
+        h3{
+            font-size: 1.6em;
+            font-family: Arial, Helvetica, sans-serif;
+            color: blueviolet;
+        }
+        button{
+            color: green;
+            margin-top: 10px;
+            padding:5px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+            <h1> welcome to chat!</h1>
+            <h3>you:hii</h3>
+            <h3>user123:happy december</h3>
+            <h3>user456:how are you</h3>
+            <h3>user123: i am fine and great</h3>
+            <h3>sounds good to hear</h3>
+            <input type="text" id="txt" placeholder="enter message here">
+            <br>
+            <button onclick="demo()">send</button>
+        </div>
+        </div>
+    </div>
+    <script>
+        let val=document.getElementById('txt').value
+
+    </script>
+
+</body>
+</html>
